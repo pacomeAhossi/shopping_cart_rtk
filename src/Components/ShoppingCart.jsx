@@ -14,7 +14,7 @@ const ShoppingCart = () => {
     }
 
     const handleClearCart = () => {
-        dispatch(clearCart(itemId));
+        dispatch(clearCart());
     }
 
     const handleIncreaseQuantity = itemId => {
